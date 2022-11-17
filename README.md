@@ -4,18 +4,18 @@
 <pre>
 • Giriş Ekranında;
 
-◦ Şirketin bilgileri yer almalıdır.
-◦ Şirket gelir gider eklemeleri bu ekrandan yapılabilmelidir.
+◦ Şirketin bilgileri yer almalıdır.✅
+◦ Şirket gelir gider eklemeleri bu ekrandan yapılabilmelidir.✅
 ◦ Şirket maaş ödemesi bu ekrandan yapılabilmelidir.
-◦ Çalışan ekle butonu olmalıdır.(Çalışan ekleme ekranı açılmalı)
-◦ Çalışan listele butonu olmalı.(Çalışan listesi ekranı açılmalı)
+◦ Çalışan ekle butonu olmalıdır.(Çalışan ekleme ekranı açılmalı)✅
+◦ Çalışan listele butonu olmalı.(Çalışan listesi ekranı açılmalı)✅
 
 • Çalışan Ekleme Ekranında;
 
-◦ Çalışan bilgileri girilecektir.(İsim, yaş, çalışan türü vs)
-◦ Çalışan maaşı otomatik hesaplanıp ekranda gösterilecektir.
-◦ Çalışan ekle yapıldığında şirket ekranına yönlenmelidir.
-◦ Bu ekranda UIStackView kullanılmalıdır.
+◦ Çalışan bilgileri girilecektir.(İsim, yaş, çalışan türü vs)✅
+◦ Çalışan maaşı otomatik hesaplanıp ekranda gösterilecektir.✅
+◦ Çalışan ekle yapıldığında şirket ekranına yönlenmelidir.✅
+◦ Bu ekranda UIStackView kullanılmalıdır.✅
 
 • Çalışan Listesi Ekranında;
 
