@@ -3,13 +3,26 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "AddEmployeeViewController.addEmployee():AddEmployeeViewController.swift">
-      </ContextState>
-      <ContextState
          contextName = "ViewController.salaryPassed(data:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "incomingEmployeeSalary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.passData(data:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "incomingEmployeeDetails">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.paySalaryButton(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "budget">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -22,12 +35,7 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ViewController.passData(data:):ViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "incomingEmployeeDetails">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "AddEmployeeViewController.addEmployee():AddEmployeeViewController.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

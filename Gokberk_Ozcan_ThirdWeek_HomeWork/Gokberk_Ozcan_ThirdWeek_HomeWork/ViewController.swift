@@ -9,9 +9,6 @@ import UIKit
 
 class ViewController: UIViewController, AddEmployeVCDelegate {
     
-    
-    
-    
     @IBOutlet weak var companyLogo: UIImageView!
     @IBOutlet weak var companyName: UILabel!
     @IBOutlet weak var companyBudget: UILabel!
@@ -25,12 +22,10 @@ class ViewController: UIViewController, AddEmployeVCDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        companyBudget.text = "300000"
+        companyBudget.text = String("\(budget)")
         employeeListButton.isHidden = true
         paySalaryButton.isHidden = true
-        
     }
-    
     
     @IBAction func getIncomeButton(_ sender: Any) {
         if let incomeValue = incomeTxtField.text {
@@ -42,7 +37,6 @@ class ViewController: UIViewController, AddEmployeVCDelegate {
         }
     }
     
-    
     @IBAction func getExpenseButton(_ sender: Any) {
         if let expenseValue = incomeTxtField.text {
             if let newBudgetExpense = Int(expenseValue) {
@@ -51,21 +45,18 @@ class ViewController: UIViewController, AddEmployeVCDelegate {
                 companyBudget.text = "\(budget)"
             }
         }
-        
     }
     
     @IBAction func paySalaryButton(_ sender: Any) {
         
         for i in incomingEmployeeSalary! {
-            if budget > 0 {
+            if budget > 0, i <= budget {
                 budget -= i
+                companyBudget.text = String(budget)
             } else {
-                companyBudget.text = "kalmadi"
+                companyBudget.text = ("There is not enough budget to pay the salaries")
             }
-            
-            
         }
-        companyBudget.text = String(budget)
     }
     
     @IBAction func addEmployeeButton(_ sender: Any) {
@@ -85,14 +76,14 @@ class ViewController: UIViewController, AddEmployeVCDelegate {
         }
     }
     
-    
-    
     @IBAction func showEmployeeListButton(_ sender: Any) {
         performSegue(withIdentifier: "employeeListScreen", sender: nil)
     }
+    
     func finishPassing(data: [String]) {
         incomingEmployeeDetails = data
     }
+    
     func salaryPassed(data: [Int]) {
         incomingEmployeeSalary = data
     }

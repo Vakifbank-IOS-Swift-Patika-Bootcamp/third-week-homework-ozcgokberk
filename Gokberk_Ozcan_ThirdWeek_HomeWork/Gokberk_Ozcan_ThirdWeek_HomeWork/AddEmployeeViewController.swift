@@ -13,10 +13,7 @@ protocol AddEmployeVCDelegate: AnyObject {
 }
 
 class AddEmployeeViewController: UIViewController {
-    
-    
-    
-    
+   
     @IBOutlet weak var employeePicker: UIPickerView!
     @IBOutlet weak var salaryLabel: UILabel!
     @IBOutlet weak var nameTxtField: UITextField!
@@ -61,14 +58,10 @@ class AddEmployeeViewController: UIViewController {
             employeeSalary?.append(baseSalary)
             UserDefaults.standard.set(employeeNameList, forKey: "empOArray")
             UserDefaults.standard.set(employeeSalary, forKey: "salaryArr")
-            print(employeeNameList!)
-            print(employeeSalary!)
         }
-       
     }
-    
-    
 }
+
 extension AddEmployeeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -99,6 +92,5 @@ extension AddEmployeeViewController: UIPickerViewDelegate, UIPickerViewDataSourc
             baseSalary = baseSalary * typeArray[row].rawValue + 6500
             salaryLabel.text = String(baseSalary)
         }
-        
     }
 }
