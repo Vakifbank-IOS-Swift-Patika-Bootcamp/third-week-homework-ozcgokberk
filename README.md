@@ -1,4 +1,7 @@
 # Third-Week-Homework
+########
+Maalesef Ödevimi yetiştiremediğimden dolayı eksik çalışmaktadır.
+#########
 1- Şirket Playground Yazılımının Xcode ile projelendirilmesi yapılacaktır. Aşağıdaki özelliklerin bulunması gerekmektedir:
 --
 <pre>
@@ -29,9 +32,9 @@
 <pre>
 • Giriş Ekranında;
 
-◦ Hayvanat bahçesi bilgileri yer almalıdır.
-◦ Hayvanat bahçesi gelir gider, su limiti eklemeleri bu ekrandan yapılabilmelidir.
-◦ Hayvanat bahçesi maaş ödemesi bu ekrandan yapılabilmelidir.
+◦ Hayvanat bahçesi bilgileri yer almalıdır.✅
+◦ Hayvanat bahçesi gelir gider, su limiti eklemeleri bu ekrandan yapılabilmelidir.✅
+◦ Hayvanat bahçesi maaş ödemesi bu ekrandan yapılabilmelidir.✅
 ◦ Bakıcı ekle butonu olmalıdır.(Bakıcı ekleme ekranı açılmalı)
 ◦ Hayvan ekle butonu olmalıdır.(Hayvan ekleme ekranı açılmalı)
 ◦ Bakıcı&Hayvan listele butonu olmalı.(Bakıcı&Hayvan listesi ekranı açılmalı)
